@@ -3,9 +3,14 @@
 import { images } from "./gallery";
 
 const gallery = document.querySelector(".gallery");
+let output = '',
 
-images.forEach(function (image) {});
+images.forEach(function (image) {
+  output += `<figure class="gallery-item>
+  <img src="./images/${images.path}.jpg alt="${images.description}" width="${images.width}"/>`
+});
 
+document.querySelector('.gallery').innerHTML = output;
 /*
 
 this was my code from the regular html
