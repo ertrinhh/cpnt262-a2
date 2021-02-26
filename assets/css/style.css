@@ -1,9 +1,9 @@
-.gallery-text {
+h1 {
   text-align: center;
   margin-top: 30px;
-}
-.gallery-text h3 {
+
   font-size: 2em;
+  font-family: sans-serif;
 
   background-image: -webkit-linear-gradient(#4a00e0, #51b0d6);
   -webkit-background-clip: text;
