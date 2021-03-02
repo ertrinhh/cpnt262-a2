@@ -1,10 +1,12 @@
-h1 {
+/* all this CSS was basically copied from my gallery assignment */
+h1,
+h3 {
   text-align: center;
   margin-top: 30px;
-
-  font-size: 2em;
   font-family: sans-serif;
+}
 
+h1 {
   background-image: -webkit-linear-gradient(#4a00e0, #51b0d6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -1,5 +1,5 @@
 "use strict";
-
+//image object
 const pictures = [
   {
     id: 1,
@@ -65,10 +65,13 @@ const pictures = [
     path: "sleeping-gallery",
   },
 ];
-
+// select gallery, assign as const
 const gallery = document.querySelector(".gallery");
+
+//create output string for html
 let output = "";
 
+//loop through each image and string together the html with object keys
 pictures.forEach(function (image) {
   output += `<figure class="gallery-item">
   <img src="./assets/images/${image.path}.jpg" alt="${image.title}"/>
@@ -79,12 +82,11 @@ pictures.forEach(function (image) {
 });
 
 /*
-
 this was my code from the regular html
 i gotta SOMEHOW turn my js into this ????
               <figure class="gallery-item">
                 <img src="./Assets/Images/happy-gallery.jpg" alt="Happy dog" />
                 <figcaption>Livin my best life</figcaption>
               </figure>
-        LMFAO fml idk wat do
+        omg i think i got it 
 */
