@@ -83,7 +83,7 @@ let output = "";
 //loop through each image and string together the html with object keys
 pictures.forEach(function (image) {
   output += `<figure class="gallery-item">
-  <img src="./assets/images/${image.path}.jpg" alt="${image.title}" style="max-width:${image.width}px; max-height:${image.height}px;"/>
+  <img src="./assets/images/${image.path}.jpg" alt="${image.title}" style="max-width: ${image.width}px; max-height: ${image.height}px;" />
   <figcaption>${image.description}</figcaption>
   </figure>`;
 
